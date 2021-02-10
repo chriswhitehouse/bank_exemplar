@@ -24,4 +24,13 @@ RSpec.describe 'Bank Tech Test' do
       expect(output.string).to eq(expected_output)
     end
   end
+
+  describe 'App can deposit, withdraw, and print balance' do
+    let(:time1) { Time.new(2012, 1, 10) }
+    let(:time2) { Time.new(2012, 1, 13) }
+    let(:time3) { Time.new(2012, 1, 14) }
+
+    let(:account) { Account.new }
+    allow(:account).to receive()
+  end
 end
